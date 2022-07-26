@@ -18,7 +18,7 @@ export default function Experience() {
       title: "Park Services Supervisor - Canada's Wonderland",
       desc:
       "Medieval Faire",
-      img: "/assets/rbc.png",
+      img: "/assets/tetris.png",
     },
   ]
 
