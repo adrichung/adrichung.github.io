@@ -33,7 +33,7 @@ export default function About() {
             </div>
         </div>
         <div className="right">
-            
+            <img src="/assets/profile.jpg" alt =""/>
         </div>
     </div>
   )
