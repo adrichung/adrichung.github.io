@@ -1,13 +1,14 @@
 @import "../../global.scss";
 
 .works{
-    background-color: white;
+    background-color:white;
     display: flex;
     justify-content: center;
     align-items: center; 
 
     .component{
         justify-content: space-between;
+        width: 100%;
 
         h1 {
             font-size: 50px;

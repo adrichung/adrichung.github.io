@@ -1,26 +1,47 @@
-import React, {Fragment} from 'react'
-import {Timeline, Event} from "react-timeline-scribble";
+import React from 'react'
 import "./works.scss";
-import "../../global.scss"
+import "../../global.scss";
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+import {Code} from "@material-ui/icons";
+
 
 export default function Works() {
   return (
     <div className='works' id="works">
       <div className="component">
         <h1>Experience</h1>
-        <Fragment>
-          <Timeline lineColor = {"#344955"}>
-            <Event interval={"Sep. 2022 – Dec. 2022"} title={"Fullstack Software Engineer"} subtitle={"Nova (formerly Polar)"}>
-              Intelligence Team
-            </Event>
-            <Event interval={"Jan. 2022 – Apr. 2022"} title={"Data Analyst"} subtitle={"Royal Bank of Canada"}>
-              Enterprise &amp; International Applications, Planning &amp; Tech Initiatives<br />
-              - Exploratory contract pricing models for app development. <br />
-              - Milestone dashboard automation and reduction. <br />
-              - Risk &amp; Governance dashboards on application portfolio.
-            </Event>
-          </Timeline>
-        </Fragment>
+        <VerticalTimeline lineColor = "#344955">
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: '#344955', color: 'white' }}
+            contentArrowStyle={{ borderRight: '3px solid  red' }}
+            date="09/2022 - 12/2022"
+            dateClassName = ""
+            iconStyle={{ background: "#344955", color: '#fff' }}
+            icon={<Code />}
+          >
+            <h3 className="vertical-timeline-element-title">Full-Stack Software Developer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Toronto, Canada</h4>
+            <p>
+              Intelligence Pod
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: '#344955', color: 'white' }}
+            contentArrowStyle={{ borderRight: '3px solid  #344955' }}
+            date="01/2022 - 04/2022"
+            iconStyle={{ background: "#344955", color: '#fff' }}
+            icon={<Code />}
+          >
+            <h3 className="vertical-timeline-element-title">Data Analyst</h3>
+            <h4 className="vertical-timeline-element-subtitle">Toronto, ON</h4>
+            <p>
+              Enteprise &amp; International Applications
+            </p>
+          </VerticalTimelineElement>
+        </VerticalTimeline>
       </div>
     </div>
   )
