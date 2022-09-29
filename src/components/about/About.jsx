@@ -1,3 +1,4 @@
+import React from "react";
 import "./about.scss";
 
 export default function About() {
@@ -8,27 +9,22 @@ export default function About() {
                 <h1>About Me</h1>
                 <p> 
                     Hi, I'm Adrian! I'm currently studying Computer Science at the University of Waterloo. 
-                    Currently in my second-year, I'm planning to do business and human-computer interaction 
-                    specializations and an economics minor. 
+                    With my degree, I am working towards a double specialisation in business and human-computer interaction, 
+                    along with a minor in economics. I am pursuing a career in product development or software engineering.
                 </p>
                 <p>
-                    My goal is to leverage my understanding of product ideation, software development, and data 
-                    analysis to enable businesses and individuals, while providing unique experiences.
+                    I'm passionate about using technology to build things from a user-perspective, enabling great 
+                    experiences that can only be delivered through software. To these ends, I am always learning 
+                    about new tools to get the job done.
                 </p>
                 <p> 
-                    I've previously worked at RBC as a data analyst, helping to price new software contracts, enable 
-                    delivery of milestones, and deploy dashboards for projects across the organisation. In fall, I'll be
-                    working at Nova (formerly Polar). Currently open to Winter 2023 product, data, and software roles!
+                    I've previously worked at RBC as a data analyst in Enteprise and International Applications. I'm currently a full-stack
+                    developer at Nova on the Intelligence team. Currently open to Winter 2023 product, data, and software roles!
                 </p>
                 <p>
-                    In my free time, I love going to the gym, running, and overanalysing anime. 
-                    I also love to work on keyboards!
-                    
-                </p>
-                <p>
-                    My plan for this website is to be a collection of things I've done. Work experience, projects,
-                    blogs, photos, etc. Work in progress, made using React and Material UI. Not yet optimised for mobile,
-                    desktop only.
+                   In my free time, I love going to the gym, running, building keyboards, and watching anime. Check out my Medium blog,
+                   where I'll be documenting my experiences in work, school, and life! Currently, I'm working on compatability for tablets
+                   for this site!
                 </p>
             </div>
         </div>

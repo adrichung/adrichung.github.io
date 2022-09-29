@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss"
 import {featuredPortfolio, webPortfolio, applicationPortfolio, designPortfolio, productPortfolio} from "../../data"
