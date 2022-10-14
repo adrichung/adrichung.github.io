@@ -19,6 +19,7 @@ export default function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
+          <img src = "assets/wave.jpg" alt = ""/>
         </div>
       </div>
       <div className="right">

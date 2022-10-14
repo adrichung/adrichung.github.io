@@ -19,11 +19,9 @@
         .imgContainer{
             width: 600px;
             height: 600px;
-            border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            background-image: url(https://www.alexotos.com/wp-content/uploads/2019/08/DSC05048.jpg);
             background-size: cover;
             float: right;
             overflow: hidden;
@@ -36,14 +34,13 @@
             }
 
             img{
-                max-width: 100%;
-                max-height: 100%;
-                height: 70%;
-
-                @include mobile{
-                    height: 50%;
-                }
+                width: 100%;
+                height: auto;
+                border-radius: 50%;
             }
+        }
+        @include mobile {
+            flex: 0.5;
         }
     }
     .right{
@@ -85,7 +82,7 @@
 
                 @include mobile {
                     font-size: 22px;
-                    
+                    text-align: center;
                 }
 
                 span{
@@ -123,6 +120,9 @@
                     opacity: 0;
                 }
             }
+        }
+        @include mobile {
+            flex: 0.5;
         }
     }
 }

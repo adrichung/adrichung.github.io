@@ -19,7 +19,7 @@ export default function About() {
                 </p>
                 <p> 
                     I've previously worked at RBC as a data analyst in Enteprise and International Applications. I'm currently a full-stack
-                    developer at Nova on the Intelligence team. Currently open to Winter 2023 product, data, and software roles!
+                    developer at Nova on the Intelligence team. Currently open to 2023 product, data, and software roles!
                 </p>
                 <p>
                    In my free time, I love going to the gym, running, building keyboards, and watching anime. Check out my Medium blog,
