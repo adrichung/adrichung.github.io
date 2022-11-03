@@ -57,7 +57,10 @@
 
             @include mobile {
                 padding-left: 0;
+                height: auto;
                 align-items: center;
+                justify-content: start;
+                padding-top: 10%;
             }
 
             h1{
@@ -66,8 +69,8 @@
                 font-weight: 400;
                 @include mobile {
                     font-size: 40px;
-                    padding-top: 20px;
-                    padding-bottom: 22px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
                 }
             }
 

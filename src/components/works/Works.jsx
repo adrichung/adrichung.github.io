@@ -16,7 +16,7 @@ export default function Works() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#344955', color: 'white' }}
             contentArrowStyle={{ borderRight: '3px solid  red' }}
-            date="09/2022 - 12/2022"
+            date=""
             dateClassName = ""
             iconStyle={{ background: "#344955", color: '#fff' }}
             icon={<Code />}
@@ -24,6 +24,8 @@ export default function Works() {
             <h3 className="vertical-timeline-element-title">Full-Stack Software Developer</h3>
             <h4 className="vertical-timeline-element-subtitle">Toronto, Canada</h4>
             <p>
+              <i>9/2022 - 12/2022</i>
+              <br />
               Intelligence Pod
             </p>
           </VerticalTimelineElement>
@@ -31,13 +33,15 @@ export default function Works() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#344955', color: 'white' }}
             contentArrowStyle={{ borderRight: '3px solid  #344955' }}
-            date="01/2022 - 04/2022"
+            date=""
             iconStyle={{ background: "#344955", color: '#fff' }}
             icon={<Code />}
           >
             <h3 className="vertical-timeline-element-title">Data Analyst</h3>
-            <h4 className="vertical-timeline-element-subtitle">Toronto, ON</h4>
+            <h4 className="vertical-timeline-element-subtitle">Toronto, Canada</h4>
             <p>
+              <i>01/2022 - 04/2022</i>
+              <br />
               Enteprise &amp; International Applications
             </p>
           </VerticalTimelineElement>
@@ -45,14 +49,16 @@ export default function Works() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#344955', color: 'white' }}
             contentArrowStyle={{ borderRight: '3px solid  #344955' }}
-            date="09/2021 - 10/2021"
+            date=""
             iconStyle={{ background: "#344955", color: '#fff' }}
             icon={<Code />}
           >
             <h3 className="vertical-timeline-element-title">Software Developer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Cambridge, ON</h4>
+            <h4 className="vertical-timeline-element-subtitle">Cambridge, Canada</h4>
             <p>
-              Contract
+              <i>09/2021 - 10/2021</i>
+              <br />
+              Contract Web Development
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

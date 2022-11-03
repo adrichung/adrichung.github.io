@@ -46,6 +46,10 @@
 
             @include mobile {
                 width: 90%;
+
+                .optional {
+                    display: none;
+                }
             }
         }
         @include mobile {
