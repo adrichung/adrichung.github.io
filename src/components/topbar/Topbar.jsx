@@ -1,7 +1,6 @@
 import React from "react";
 import "./topbar.scss"
 import {Mail, LinkedIn, GitHub, InsertDriveFile} from "@material-ui/icons"
-import BookIcon from '@mui/icons-material/Book';
 
 export default function Topbar({menuOpen, setMenuOpen}) {
   return (
@@ -40,7 +39,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                 <div className="itemContainer">
                     <span>
                         <a href="https://medium.com/@adrianthchung">
-                            <BookIcon className="icon"/>
+                            <img src = "assets/medium.png" alt=""/>
                         </a>
                     </span>
                 </div>

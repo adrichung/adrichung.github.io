@@ -25,12 +25,14 @@
             background-size: cover;
             float: right;
             overflow: hidden;
+            margin-left: 10px;
 
             @include mobile{
                 margin-top: 10px;
                 align-items: flex-start;
                 width: 300px;
                 height: 300px;
+                margin-left: 10px;
             }
 
             img{
@@ -108,24 +110,24 @@
                 }
             }
         }
-        a{
-            position: absolute;
-            bottom: 10px;
-            left: 40%;
-
-            img{
-                width: 30px;
-                animation: arrowBlink 2s infinite;
-            }
-
-            @keyframes arrowBlink {
-                100%{
-                    opacity: 0;
-                }
-            }
-        }
         @include mobile {
             flex: 0.5;
+        }
+    }
+    a{
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+
+        img{
+            width: 30px;
+            animation: arrowBlink 2s infinite;
+        }
+
+        @keyframes arrowBlink {
+            100%{
+                opacity: 0;
+            }
         }
     }
 }

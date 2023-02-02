@@ -10,7 +10,7 @@ export default function Intro() {
   useEffect(() => {
     init(textRef.current, {
       showCursor: true,
-      strings: ["Computer Science", "Data Science", "Business", "Human Computer Interaction", "Economics"],
+      strings: ["Computer Science", "Data Science", "Business", "Human-Computer Interaction", "Economics"],
       backDelay: 2000,
       backSpeed: 60,
     })
@@ -31,10 +31,10 @@ export default function Intro() {
           </h3>
           
         </div>
-        <a href="#portfolio">
-          <img src="assets/down.png" alt="" className="profile"/>
-        </a>
       </div>
+      <a href="#about">
+        <img src="assets/down.png" alt="" className="profile"/>
+      </a>
     </div>
   )
 }

@@ -12,6 +12,19 @@ export default function Works() {
       <div className="component">
         <h1>Experience</h1>
         <VerticalTimeline lineColor = "#344955">
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: '#344955', color: 'white' }}
+            contentArrowStyle={{ borderRight: '3px solid  red' }}
+            date=""
+            dateClassName = ""
+            iconStyle={{ background: "#344955", color: '#fff' }}
+            icon={<Code />}
+          >
+            <h3 className="vertical-timeline-element-title">Analytics Co-op</h3>
+            <p>TELUS Digital, Support</p>
+            
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#344955', color: 'white' }}
@@ -21,12 +34,9 @@ export default function Works() {
             iconStyle={{ background: "#344955", color: '#fff' }}
             icon={<Code />}
           >
-            <h3 className="vertical-timeline-element-title">Full-Stack Software Developer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Toronto, Canada</h4>
+            <h3 className="vertical-timeline-element-title">Full-Stack Software Engineer</h3>
             <p>
-              <i>9/2022 - 12/2022</i>
-              <br />
-              Intelligence Pod
+              Nova, Intelligence Pod
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -38,27 +48,8 @@ export default function Works() {
             icon={<Code />}
           >
             <h3 className="vertical-timeline-element-title">Data Analyst</h3>
-            <h4 className="vertical-timeline-element-subtitle">Toronto, Canada</h4>
             <p>
-              <i>01/2022 - 04/2022</i>
-              <br />
-              Enteprise &amp; International Applications
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: '#344955', color: 'white' }}
-            contentArrowStyle={{ borderRight: '3px solid  #344955' }}
-            date=""
-            iconStyle={{ background: "#344955", color: '#fff' }}
-            icon={<Code />}
-          >
-            <h3 className="vertical-timeline-element-title">Software Developer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Cambridge, Canada</h4>
-            <p>
-              <i>09/2021 - 10/2021</i>
-              <br />
-              Contract Web Development
+              RBC, Enteprise &amp; International Applications
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
